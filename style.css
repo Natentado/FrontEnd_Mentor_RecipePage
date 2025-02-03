@@ -65,7 +65,10 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding: 36px 48px;
+    padding: 36px;
+    margin: 24px;
+    border-radius: 12px;
+    background-color: var(--rose-50);
 
     p{
       color: var(--rose-800);
@@ -207,7 +210,6 @@
       padding: 36px;
       border-radius: 20px;
     }
-
     
     .recipe-header{
       .recipe-header-img{
@@ -226,7 +228,8 @@
     }
     
     .recipe-preparation-time{
-      padding: 48px 24px;
+      padding: 36px 48px;
+      margin: 24px 0;
     }
 
     .recipe-section{
@@ -236,7 +239,7 @@
         padding: unset;
       }
   
-      &.instructions ul li pb {
+      &.instructions ul li p {
         margin-left: 12px;
       }
     }
